@@ -4,7 +4,7 @@
 
 [![Build Status](https://travis-ci.org/pagekit/pagekit.svg?branch=develop)](https://travis-ci.org/pagekit/pagekit)
 
-* [Dockerfile](https://github.com/izuolan/dockerfiles/tree/master/pagekit) `latest`
+* [Dockerfile](https://github.com/pdrappo/pagekit-docker/tree/main/Dockerfile) `latest`
 * [Pagekit.com](https://pagekit.com)
 * [Github](https://github.com/pagekit/pagekit/)
 
@@ -23,7 +23,7 @@ $ docker run -d \
 On install, use sqlite.
 
 ## Use Docker-compose
-* `mkdir ~/pagekit && cd ~/pagekit && vim docker-compose.yml`
+* `mkdir ./pagekit && cd ./pagekit && vim docker-compose.yml`
 ```
 version: '3'
 services:
